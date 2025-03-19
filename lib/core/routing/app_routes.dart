@@ -5,6 +5,9 @@ import 'package:my_doctor/features/onboarding/onboarding_screen.dart';
 
 class AppRouter {
   Route genrateRoute(RouteSettings settings) {
+    // this is argument to be passed in any screen like this (arguments: 'class name')
+    final arguments = settings.arguments;
+
     switch (settings.name) {
       case Routes.onBoardingScreen:
         return MaterialPageRoute(builder: (_) => OnboardingScreen());
