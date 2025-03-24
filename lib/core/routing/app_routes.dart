@@ -4,7 +4,7 @@ import 'package:my_doctor/features/login/ui/widgets/login_screen.dart';
 import 'package:my_doctor/features/onboarding/onboarding_screen.dart';
 
 class AppRouter {
-  Route genrateRoute(RouteSettings settings) {
+  Route generateRoute(RouteSettings settings) {
     // this is argument to be passed in any screen like this (arguments: 'class name')
     final arguments = settings.arguments;
 
