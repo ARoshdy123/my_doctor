@@ -83,7 +83,7 @@ class TextStyles {
   );
 
   static TextStyle font14GrayRegular = TextStyle(
-    fontSize: 14.sp,
+    fontSize: 15.sp,
     fontWeight: FontWeightHelper.regular,
     color: ColorsManager.gray,
   );

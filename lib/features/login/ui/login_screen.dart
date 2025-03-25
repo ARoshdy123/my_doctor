@@ -23,7 +23,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return Scaffold(
       body: SafeArea(
         child: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 30.w, vertical: 30.h),
+          padding: EdgeInsets.symmetric(horizontal: 30.w, vertical: 50.h),
           child: SingleChildScrollView(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -66,15 +66,15 @@ class _LoginScreenState extends State<LoginScreen> {
                           style: TextStyles.font13BlueRegular,
                         ),
                       ),
-                      verticalSpace(40),
+                      verticalSpace(34),
                       AppTextButton(
                         buttonText: "Login",
                         textStyle: TextStyles.font16WhiteSemiBold,
                         onPressed: () {},
                       ),
-                      verticalSpace(16),
+                      verticalSpace(18),
                       const TermsAndConditionsText(),
-                      verticalSpace(60),
+                      verticalSpace(50),
                       const DontHaveAccountText(),
                     ],
                   ),
